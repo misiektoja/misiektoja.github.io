@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>misiektoja - open source projects</title>
+<meta name="description" content="Open source projects by misiektoja: certificate management and PKI tools and Go libraries for CMP, EST, SCEP and ACME, plus activity monitors for Instagram, Spotify, Steam, PlayStation, Xbox and more.">
+<link rel="canonical" href="https://misiektoja.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="misiektoja - open source projects">
+<meta property="og:description" content="Certificate management and PKI tools, Go libraries and activity monitors.">
+<meta property="og:url" content="https://misiektoja.github.io/">
+<style>
+  :root { color-scheme: light dark; --fg: #1f2328; --muted: #59636e; --bg: #ffffff; --line: #d1d9e0; --link: #0969da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg: #e6edf3; --muted: #9198a1; --bg: #0d1117; --line: #3d444d; --link: #4493f8; }
+  }
+  body { margin: 0 auto; max-width: 52rem; padding: 2rem 1.25rem 3rem; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: var(--fg); background: var(--bg); }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  h1 { margin: 0 0 .25rem; font-size: 1.8rem; }
+  h2 { margin: 2.25rem 0 .5rem; padding-bottom: .3rem; border-bottom: 1px solid var(--line); font-size: 1.35rem; }
+  h3 { margin: 1.5rem 0 .25rem; font-size: 1rem; color: var(--muted); }
+  .intro { margin: 0; color: var(--muted); }
+  ul { margin: 0; padding: 0; list-style: none; }
+  li { padding: .55rem 0; border-bottom: 1px solid var(--line); }
+  li:last-child { border-bottom: 0; }
+  .name { font-weight: 600; }
+  .links { float: right; margin-left: 1rem; font-size: .9rem; }
+  .links a + a { margin-left: .75rem; }
+  .desc { display: block; color: var(--muted); font-size: .95rem; }
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>misiektoja</h1>
+  <p class="intro">Open source projects: certificate management and PKI tools, Go libraries for PKI protocols and activity monitors for social, music and gaming platforms.</p>
+</header>
+
+<main>
+<h2>Certificate management and PKI</h2>
+
+<h3>Tools and integrations</h3>
+<ul>
+  <li><span class="links"><a href="https://misiektoja.github.io/certrally/">Docs</a><a href="https://github.com/misiektoja/certrally">Code</a></span><a class="name" href="https://misiektoja.github.io/certrally/">certrally</a><span class="desc">Command line client for CMP, EST and SCEP certificate enrollment with test CAs, RFC checks and post-quantum keys</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/cmp-issuer/">Docs</a><a href="https://github.com/misiektoja/cmp-issuer">Code</a></span><a class="name" href="https://misiektoja.github.io/cmp-issuer/">cmp-issuer</a><span class="desc">Kubernetes cert-manager issuer for CMP servers</span></li>
+  <li><span class="links"><a href="https://nokia-steward.github.io/ncm-issuer/docs/">Docs</a><a href="https://github.com/nokia-steward/ncm-issuer">Code</a></span><a class="name" href="https://nokia-steward.github.io/ncm-issuer/docs/">ncm-issuer</a><span class="desc">Kubernetes cert-manager issuer for Nokia NCM PKI</span></li>
+  <li><span class="links"><a href="https://github.com/misiektoja/forklift_x509_tools">Code</a></span><a class="name" href="https://github.com/misiektoja/forklift_x509_tools">forklift_x509_tools</a><span class="desc">ForkLift (macOS) extensions for managing X.509 certificates</span></li>
+</ul>
+
+<h3>Go libraries</h3>
+<ul>
+  <li><span class="links"><a href="https://misiektoja.github.io/go-acme-server/">Docs</a><a href="https://github.com/misiektoja/go-acme-server">Code</a></span><a class="name" href="https://misiektoja.github.io/go-acme-server/">go-acme-server</a><span class="desc">Embeddable ACME server (RFC 8555)</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/go-pki-cmp/">Docs</a><a href="https://github.com/misiektoja/go-pki-cmp">Code</a></span><a class="name" href="https://misiektoja.github.io/go-pki-cmp/">go-pki-cmp</a><span class="desc">Certificate Management Protocol (RFC 9810, RFC 4210 and RFC 6712)</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/go-pki-est/">Docs</a><a href="https://github.com/misiektoja/go-pki-est">Code</a></span><a class="name" href="https://misiektoja.github.io/go-pki-est/">go-pki-est</a><span class="desc">EST client and embeddable server (RFC 7030 and RFC 8951)</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/go-pki-scep/">Docs</a><a href="https://github.com/misiektoja/go-pki-scep">Code</a></span><a class="name" href="https://misiektoja.github.io/go-pki-scep/">go-pki-scep</a><span class="desc">SCEP client and embeddable server handler (RFC 8894)</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/go-pkcs7/">Docs</a><a href="https://github.com/misiektoja/go-pkcs7">Code</a></span><a class="name" href="https://misiektoja.github.io/go-pkcs7/">go-pkcs7</a><span class="desc">PKCS #7 and CMS signed and enveloped data (RFC 5652)</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/go-composite-mldsa/">Docs</a><a href="https://github.com/misiektoja/go-composite-mldsa">Code</a></span><a class="name" href="https://misiektoja.github.io/go-composite-mldsa/">go-composite-mldsa</a><span class="desc">Post-quantum composite ML-DSA signatures (draft-ietf-lamps-pq-composite-sigs)</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/go-tls-srp/">Docs</a><a href="https://github.com/misiektoja/go-tls-srp">Code</a></span><a class="name" href="https://misiektoja.github.io/go-tls-srp/">go-tls-srp</a><span class="desc">TLS 1.2 client and server with SRP password authentication (RFC 5054)</span></li>
+</ul>
+
+<h2>Activity monitors</h2>
+<p class="intro">Python tools that track activity in real time and send notifications by email, Discord webhook or ntfy.</p>
+
+<h3>Social and developer platforms</h3>
+<ul>
+  <li><span class="links"><a href="https://misiektoja.github.io/instagram_monitor/">Docs</a><a href="https://github.com/misiektoja/instagram_monitor">Code</a></span><a class="name" href="https://misiektoja.github.io/instagram_monitor/">instagram_monitor</a><span class="desc">Track Instagram users activities and profile changes</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/github_monitor/">Docs</a><a href="https://github.com/misiektoja/github_monitor">Code</a></span><a class="name" href="https://misiektoja.github.io/github_monitor/">github_monitor</a><span class="desc">Watch GitHub user and repository activities</span></li>
+</ul>
+
+<h3>Music</h3>
+<ul>
+  <li><span class="links"><a href="https://misiektoja.github.io/spotify_monitor/">Docs</a><a href="https://github.com/misiektoja/spotify_monitor">Code</a></span><a class="name" href="https://misiektoja.github.io/spotify_monitor/">spotify_monitor</a><span class="desc">Track Spotify friends music activity</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/spotify_profile_monitor/">Docs</a><a href="https://github.com/misiektoja/spotify_profile_monitor">Code</a></span><a class="name" href="https://misiektoja.github.io/spotify_profile_monitor/">spotify_profile_monitor</a><span class="desc">Monitor Spotify profile, follower and playlist changes</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/lastfm_monitor/">Docs</a><a href="https://github.com/misiektoja/lastfm_monitor">Code</a></span><a class="name" href="https://misiektoja.github.io/lastfm_monitor/">lastfm_monitor</a><span class="desc">Track Last.fm listening history and scrobbles</span></li>
+</ul>
+
+<h3>Video games</h3>
+<ul>
+  <li><span class="links"><a href="https://misiektoja.github.io/steam_monitor/">Docs</a><a href="https://github.com/misiektoja/steam_monitor">Code</a></span><a class="name" href="https://misiektoja.github.io/steam_monitor/">steam_monitor</a><span class="desc">Monitor Steam players activities and achievements</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/psn_monitor/">Docs</a><a href="https://github.com/misiektoja/psn_monitor">Code</a></span><a class="name" href="https://misiektoja.github.io/psn_monitor/">psn_monitor</a><span class="desc">Track PlayStation Network players activities</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/xbox_monitor/">Docs</a><a href="https://github.com/misiektoja/xbox_monitor">Code</a></span><a class="name" href="https://misiektoja.github.io/xbox_monitor/">xbox_monitor</a><span class="desc">Monitor Xbox Live players activities</span></li>
+  <li><span class="links"><a href="https://misiektoja.github.io/lol_monitor/">Docs</a><a href="https://github.com/misiektoja/lol_monitor">Code</a></span><a class="name" href="https://misiektoja.github.io/lol_monitor/">lol_monitor</a><span class="desc">Track League of Legends players activities</span></li>
+</ul>
+
+<h2>Developer tools and utilities</h2>
+<ul>
+  <li><span class="links"><a href="https://github.com/pr-fuzzylogic/mac_software_updater">Code</a></span><a class="name" href="https://github.com/pr-fuzzylogic/mac_software_updater">mac_software_updater</a><span class="desc">Automated software updates for macOS</span></li>
+  <li><span class="links"><a href="https://github.com/misiektoja/kill-process-mcp">Code</a></span><a class="name" href="https://github.com/misiektoja/kill-process-mcp">kill-process-mcp</a><span class="desc">MCP server to list and kill OS processes</span></li>
+  <li><span class="links"><a href="https://github.com/misiektoja/popclip_extensions">Code</a></span><a class="name" href="https://github.com/misiektoja/popclip_extensions">popclip_extensions</a><span class="desc">Collection of custom PopClip (macOS) extensions</span></li>
+</ul>
+</main>
+
+<footer>
+  <a href="https://github.com/misiektoja">github.com/misiektoja</a>
+</footer>
+</body>
+</html>

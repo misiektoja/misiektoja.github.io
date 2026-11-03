@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://misiektoja.github.io/sitemap.xml
+Sitemap: https://misiektoja.github.io/certrally/sitemap.xml
+Sitemap: https://misiektoja.github.io/cmp-issuer/sitemap.xml
+Sitemap: https://misiektoja.github.io/go-acme-server/sitemap.xml
+Sitemap: https://misiektoja.github.io/go-pki-cmp/sitemap.xml
+Sitemap: https://misiektoja.github.io/go-pki-est/sitemap.xml
+Sitemap: https://misiektoja.github.io/go-pki-scep/sitemap.xml
+Sitemap: https://misiektoja.github.io/go-pkcs7/sitemap.xml
+Sitemap: https://misiektoja.github.io/go-composite-mldsa/sitemap.xml
+Sitemap: https://misiektoja.github.io/go-tls-srp/sitemap.xml
+Sitemap: https://misiektoja.github.io/instagram_monitor/sitemap.xml
+Sitemap: https://misiektoja.github.io/github_monitor/sitemap.xml
+Sitemap: https://misiektoja.github.io/spotify_monitor/sitemap.xml
+Sitemap: https://misiektoja.github.io/spotify_profile_monitor/sitemap.xml
+Sitemap: https://misiektoja.github.io/lastfm_monitor/sitemap.xml
+Sitemap: https://misiektoja.github.io/steam_monitor/sitemap.xml
+Sitemap: https://misiektoja.github.io/psn_monitor/sitemap.xml
+Sitemap: https://misiektoja.github.io/xbox_monitor/sitemap.xml
+Sitemap: https://misiektoja.github.io/lol_monitor/sitemap.xml
